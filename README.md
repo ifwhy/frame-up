@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+<h1 align="center">
+FrameUp 📸🚀
+</h1>
+<h2 align="center">
+Platform media sosial untuk berbagi momen dengan pengalaman yang segar dan interaktif!
+</h2>
 
-First, run the development server:
+<img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs" alt="Next.js">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/ShadCN-111?style=for-the-badge" alt="ShadCN">
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+</div>
+
+## 📖 Daftar Isi
+
+- 📌 [Tentang FrameUp](#-tentang-frameup)
+- ✨ [Fitur Utama](#-fitur-utama)
+- 🚀 [Instalasi](#-instalasi)
+- 📷 [Cuplikan Layar](#-cuplikan-layar)
+- 🛠️ [Teknologi yang Digunakan](#️-teknologi-yang-digunakan)
+- 🤝 [Kontribusi](#-kontribusi)
+- 📄 [Lisensi](#-lisensi)
+
+## 📌 Tentang FrameUp
+
+FrameUp adalah platform media sosial inovatif yang memungkinkan pengguna berbagi momen, berinteraksi dengan teman, serta menikmati konten dengan cara yang lebih menyenangkan dan modern.
+
+## ✨ Fitur Utama
+
+✅ **Masuk cepat** dengan akun Gmail atau GitHub  
+✅ **Mode gelap** untuk pengalaman lebih nyaman  
+✅ **Unggah gambar & caption** untuk berbagi momen  
+✅ **Ikuti pengguna lain** dan lihat postingan mereka  
+✅ **Perbarui profil** sesuai keinginanmu  
+✅ **UI/UX modern** dengan pengalaman yang mulus
+
+## 🚀 Instalasi
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
 
 ```bash
+git clone https://github.com/username/frameup.git
+cd frameup
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📷 Cuplikan Layar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚧 **(Akan segera ditambahkan)**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Teknologi yang Digunakan
 
-## Learn More
+- **Next.js** 🚀 - Framework React modern
+- **TypeScript** 🛠 - Supaya lebih aman & terstruktur
+- **ShadCN** 🎨 - Komponen UI yang elegan
+- **Tailwind CSS** 💨 - Gaya minimalis dan responsif
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Kontribusi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Kami selalu terbuka untuk kontribusi! Jika ingin menambahkan fitur atau memperbaiki bug, silakan lakukan **pull request** atau buka **issue** baru.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Lisensi
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proyek ini dilisensikan di bawah **MIT License**. Silakan gunakan, modifikasi, dan kontribusi sesuai keinginan! 🎉
