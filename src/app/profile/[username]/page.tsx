@@ -14,10 +14,9 @@ export async function generateMetadata({
 }: {
   params: { username: string };
 }) {
-  const { username } = await params;
-  const userProfile = await getProfileByUsername(username);
+  const userProfile = await getProfileByUsername(params.username);
 
-  if (!userProfile) return;
+  if (!userProfile) return null;
 
   return {
     title: userProfile.name ?? userProfile.username,
@@ -25,10 +24,10 @@ export async function generateMetadata({
   };
 }
 
-const page = async ({ params }: { params: { username: string } }) => {
-  const { username } = await params;
-  const userProfile = await getProfileByUsername(username);
+const Page = async ({ params }: { params: { username: string } }) => {
+  const userProfile = await getProfileByUsername(params.username);
   const user = await currentUser();
+
   if (!userProfile || !user) return notFound();
 
   const [posts, likedPosts, isCurrentUserFollowing] = await Promise.all([
@@ -48,4 +47,4 @@ const page = async ({ params }: { params: { username: string } }) => {
   );
 };
 
-export default page;
+export default Page;
