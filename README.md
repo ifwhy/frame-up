@@ -4,7 +4,7 @@
 FrameUp 📸🚀
 </h1>
 <h2 align="center">
-Platform media sosial untuk berbagi momen dengan pengalaman yang segar dan interaktif!
+A social media platform to share moments with a fresh and interactive experience!
 </h2>
 
 <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs" alt="Next.js">
@@ -13,32 +13,32 @@ Platform media sosial untuk berbagi momen dengan pengalaman yang segar dan inter
 <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
 </div>
 
-## 📖 Daftar Isi
+## 📖 Table of Contents
 
-- 📌 [Tentang FrameUp](#-tentang-frameup)
-- ✨ [Fitur Utama](#-fitur-utama)
-- 🚀 [Instalasi](#-instalasi)
-- 📷 [Cuplikan Layar](#-cuplikan-layar)
-- 🛠️ [Teknologi yang Digunakan](#️-teknologi-yang-digunakan)
-- 🤝 [Kontribusi](#-kontribusi)
-- 📄 [Lisensi](#-lisensi)
+- 📌 [About FrameUp](#-about-frameup)
+- ✨ [Key Features](#-key-features)
+- 🚀 [Installation](#-installation)
+- 📷 [Screenshots](#-screenshots)
+- 🛠️ [Technologies Used](#️-technologies-used)
+- 🤝 [Contributing](#-contributing)
+- 📄 [License](#-license)
 
-## 📌 Tentang FrameUp
+## 📌 About FrameUp
 
-FrameUp adalah platform media sosial inovatif yang memungkinkan pengguna berbagi momen, berinteraksi dengan teman, serta menikmati konten dengan cara yang lebih menyenangkan dan modern.
+FrameUp is an innovative social media platform that allows users to share moments, interact with friends, and enjoy content in a fun and modern way.
 
-## ✨ Fitur Utama
+## ✨ Key Features
 
-✅ **Masuk cepat** dengan akun Gmail atau GitHub  
-✅ **Mode gelap** untuk pengalaman lebih nyaman  
-✅ **Unggah gambar & caption** untuk berbagi momen  
-✅ **Ikuti pengguna lain** dan lihat postingan mereka  
-✅ **Perbarui profil** sesuai keinginanmu  
-✅ **UI/UX modern** dengan pengalaman yang mulus
+✅ **Quick login** with Gmail or GitHub  
+✅ **Dark mode** for a more comfortable experience  
+✅ **Upload images & captions** to share your moments  
+✅ **Follow users** and see their posts  
+✅ **Update your profile** as you like  
+✅ **Modern UI/UX** with a seamless experience
 
-## 🚀 Instalasi
+## 🚀 Installation
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
+Follow these steps to run the project locally:
 
 ```bash
 git clone https://github.com/ifwhy/frame-up.git
@@ -47,21 +47,21 @@ npm install
 npm run dev
 ```
 
-## 📷 Cuplikan Layar
+## 📷 Screenshots
 
-🚧 **(Akan segera ditambahkan)**
+🚧 **(Coming soon...)**
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-- **Next.js** 🚀 - Framework React modern
-- **TypeScript** 🛠 - Supaya lebih aman & terstruktur
-- **ShadCN** 🎨 - Komponen UI yang elegan
-- **Tailwind CSS** 💨 - Gaya minimalis dan responsif
+- **Next.js** 🚀 - Modern React framework
+- **TypeScript** 🛠 - Ensures better safety & structure
+- **ShadCN** 🎨 - Elegant UI components
+- **Tailwind CSS** 💨 - Minimalist and responsive styling
 
-## 🤝 Kontribusi
+## 🤝 Contributing
 
-Kami selalu terbuka untuk kontribusi! Jika ingin menambahkan fitur atau memperbaiki bug, silakan lakukan **pull request** atau buka **issue** baru.
+We welcome contributions! If you'd like to add a feature or fix a bug, feel free to submit a **pull request** or open a **new issue**.
 
-## 📄 Lisensi
+## 📄 License
 
-Proyek ini dilisensikan di bawah **MIT License**. Silakan gunakan, modifikasi, dan kontribusi sesuai keinginan! 🎉
+This project is licensed under the **MIT License**. Feel free to use, modify, and contribute! 🎉
