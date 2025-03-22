@@ -41,8 +41,8 @@ FrameUp adalah platform media sosial inovatif yang memungkinkan pengguna berbagi
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal:
 
 ```bash
-git clone https://github.com/username/frameup.git
-cd frameup
+git clone https://github.com/ifwhy/frame-up.git
+cd frame-up
 npm install
 npm run dev
 ```
