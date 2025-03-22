@@ -4,7 +4,7 @@ import prisma from '@/lib/prisma';
 import { getDbUserId } from './user.utils';
 import { revalidatePath } from 'next/cache';
 
-export async function createPost(content: string, image: string) {
+export async function createPost(content: string) {
   try {
     const userId = await getDbUserId();
 
@@ -13,7 +13,6 @@ export async function createPost(content: string, image: string) {
     const post = await prisma.post.create({
       data: {
         content,
-        image: image || null,
         authorId: userId,
       },
     });
@@ -37,7 +36,6 @@ export async function getAllPosts() {
           select: {
             id: true,
             name: true,
-            image: true,
             username: true,
           },
         },
@@ -47,7 +45,6 @@ export async function getAllPosts() {
               select: {
                 id: true,
                 username: true,
-                image: true,
                 name: true,
               },
             },
@@ -87,7 +84,8 @@ export async function deletePost(postId: string) {
     });
 
     if (!post) throw new Error('Post not found');
-    if (post.authorId !== userId) throw new Error('Unauthorized - no delete permission');
+    if (post.authorId !== userId)
+      throw new Error('Unauthorized - no delete permission');
 
     await prisma.post.delete({
       where: { id: postId },
@@ -146,15 +144,15 @@ export async function toggleLike(postId: string) {
         }),
         ...(post.authorId !== userId
           ? [
-            prisma.notification.create({
-              data: {
-                type: 'LIKE',
-                userId: post.authorId, // recipient (post author)
-                creatorId: userId, // person who liked
-                postId,
-              },
-            }),
-          ]
+              prisma.notification.create({
+                data: {
+                  type: 'LIKE',
+                  userId: post.authorId, // recipient (post author)
+                  creatorId: userId, // person who liked
+                  postId,
+                },
+              }),
+            ]
           : []),
       ]);
     }

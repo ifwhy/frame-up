@@ -18,14 +18,12 @@ export async function getNotifications() {
             id: true,
             name: true,
             username: true,
-            image: true,
           },
         },
         post: {
           select: {
             id: true,
             content: true,
-            image: true,
           },
         },
         comment: {

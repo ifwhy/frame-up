@@ -79,7 +79,6 @@ export async function getRandomUsers() {
         id: true,
         name: true,
         username: true,
-        image: true,
         _count: {
           select: {
             followers: true,
