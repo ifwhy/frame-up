@@ -177,7 +177,6 @@ export async function isFollowing(userId: string) {
 
     const follow = await prisma.follows.findUnique({
       where: {
-        // eslint-disable-next-line camelcase
         followerId_followingId: {
           followerId: currentUserId,
           followingId: userId,

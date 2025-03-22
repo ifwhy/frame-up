@@ -102,7 +102,6 @@ export async function hasFollowed(targetUserId: string) {
 
     const user = await prisma.follows.findUnique({
       where: {
-        // eslint-disable-next-line camelcase
         followerId_followingId: {
           followerId: userId,
           followingId: targetUserId,
@@ -127,7 +126,6 @@ export async function toggleFollow(targetUserId: string) {
 
     const existingFollow = await prisma.follows.findUnique({
       where: {
-        // eslint-disable-next-line camelcase
         followerId_followingId: {
           followerId: userId,
           followingId: targetUserId,
@@ -139,7 +137,6 @@ export async function toggleFollow(targetUserId: string) {
       // unfollow
       await prisma.follows.delete({
         where: {
-          // eslint-disable-next-line camelcase
           followerId_followingId: {
             followerId: userId,
             followingId: targetUserId,

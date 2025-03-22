@@ -107,7 +107,6 @@ export async function toggleLike(postId: string) {
     // check if like exists
     const existingLike = await prisma.like.findUnique({
       where: {
-        // eslint-disable-next-line camelcase
         userId_postId: {
           userId,
           postId,
@@ -126,7 +125,6 @@ export async function toggleLike(postId: string) {
       // unlike
       await prisma.like.delete({
         where: {
-          // eslint-disable-next-line camelcase
           userId_postId: {
             userId,
             postId,
